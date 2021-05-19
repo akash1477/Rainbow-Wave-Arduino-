@@ -1,9 +1,9 @@
 #include <FastLED.h>
 
 #define PIN 4 // Connect this to the data pin of the LED strip
-#define NUM_LEDS 270 // Number of LED in the strip
-#define BRIGHTNESS = 255; 
-#define SATURATION = 255;
+#define NUM_LEDS 60 // Number of LED in the strip
+#define BRIGHTNESS = 255
+#define SATURATION = 255
 
 CRGB leds[NUM_LEDS];   //leds is an array of size NUM_LEDS and used to address each LED in the strip 
 
